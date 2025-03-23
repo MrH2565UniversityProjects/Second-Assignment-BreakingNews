@@ -1,62 +1,62 @@
-# Project Title
+# News Fetcher
 
-Simple overview of use/purpose.
+A lightweight Java application that retrieves and displays the latest news from an online source.
 
-## Description
+## Overview
 
-An in-depth paragraph about your project and overview of use.
+This project fetches live news articles from an external API and presents them in a user-friendly format. Users can browse headlines and select specific articles for more details.
 
-## Getting Started
+## Features
 
-### Dependencies
+- Fetches and lists the most recent news articles.
+- Displays detailed information about each article.
+- Handles incorrect user inputs gracefully.
+- Demonstrates HTTP requests, JSON parsing, and command-line interaction.
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+## Requirements
 
-### Installing
+Ensure the following are installed before running the application:
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+- **Java 23** (Required for compilation and execution)
+- **Gradle** (For dependency management)
+- **Git** (For version control)
+- **News API Key** (Needed to retrieve news articles)
 
-### Executing program
+## Installation
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+1. Clone this repository to your local machine.
+2. Obtain an API key from News API.
+3. Install required dependencies using Gradle.
 
-## Help
+## How to Use
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+1. Compile the project using Gradle.
+2. Run the application from the terminal.
+3. Browse through the list of news articles.
+4. Select an article to view more details.
+5. If an invalid input is provided, the system will prompt again.
 
-## Authors
+## Troubleshooting
 
-Contributors names and contact info
+### Handling Invalid Inputs
+- **Issue:** Users may enter incorrect values.
+- **Solution:** Implemented input validation to ensure correct selections.
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+## Author
+
+- Mahdi Hoseinpoor
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+- **v1.0** - Initial release with core functionality.
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Acknowledgments
+## Credits
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+This project uses:
+
+- **News API** – For real-time news data.
+- **Gson Library** – For parsing JSON efficiently.
